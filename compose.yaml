@@ -1,0 +1,9 @@
+services:
+  nginx-yum:
+    build: .
+    ports:
+      - "8080:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      # - ./yum:/yum
+    tty: true

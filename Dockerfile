@@ -3,7 +3,7 @@ ENV TZ=Asia/Tokyo
 
 RUN dnf install -y \
     nginx \
-    createrepo \
+    yum-utils createrepo \
     wget \
     && dnf clean all
 

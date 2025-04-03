@@ -14,6 +14,6 @@ RUN chown -R nginx:nginx /yum /var/log/nginx /etc/nginx /var/run/nginx
 
 USER nginx
 WORKDIR /yum
-EXPOSE 80
+EXPOSE 8080
 
 CMD ["nginx", "-g", "daemon off;"]

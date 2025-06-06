@@ -1,4 +1,4 @@
-FROM rockylinux/rockylinux:9.5.20241118
+FROM rockylinux/rockylinux:9.6.20250531
 ENV TZ=Asia/Tokyo
 
 RUN dnf install -y \
